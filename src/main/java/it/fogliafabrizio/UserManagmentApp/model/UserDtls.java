@@ -42,4 +42,9 @@ public class UserDtls {
             name = "role"
     )
     private String role;
+
+    @Column(
+            name = "mobile_number"
+    )
+    private String mobileNumber;
 }
