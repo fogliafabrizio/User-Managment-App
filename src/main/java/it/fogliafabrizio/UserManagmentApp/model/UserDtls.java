@@ -47,4 +47,19 @@ public class UserDtls {
             name = "mobile_number"
     )
     private String mobileNumber;
+
+    @Column(
+            name = "non_locked"
+    )
+    private boolean accountNonLocked;
+
+    @Column(
+            name = "enabled"
+    )
+    private boolean accountEnabled;
+
+    @Column(
+            name = "verification_code"
+    )
+    private String verificationCode;
 }
